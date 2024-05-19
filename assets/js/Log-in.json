@@ -1,0 +1,24 @@
+{
+  "Accounts":[
+    {
+      "username":"Ron-J",
+      "password":"Ron-J056",
+      "role": "ADMIN"
+    },
+    {
+      "username":"Admin",
+      "password":"Root",
+      "role": "ADMIN"
+    },
+    {
+      "username":"User",
+      "password":"Pass",
+      "role": "USER"
+    },
+    {
+      "username":"Guest",
+      "password":"123",
+      "role": "USER"
+    }
+  ]
+}

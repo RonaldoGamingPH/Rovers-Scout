@@ -1,0 +1,38 @@
+#BSPLogo{
+    float: left;
+    width: 100px;
+    height: auto;
+    background: transparent;
+}
+
+header h1{
+    position: relative;
+    text-align: center;
+}
+
+.centered {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+#RoversLogo{
+    float: right;
+    width: 150px;
+    height: 150px;
+    background: transparent;
+}
+
+#RoverLogoInContainer{
+    margin: 0px; 
+    height: 100%;
+    background: transparent;
+}
+
+.HeaderPadding{
+        background: #faf6e7b3;
+        padding-left: 15px;
+        padding-right: 15px;
+        height: 170px;
+}

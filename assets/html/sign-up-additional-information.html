@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Sign Up Additional Information</title>
+    <link rel="icon" href="https://lh3.googleusercontent.com/d/1xhfl3_aA02ROUJWWYrUdsgg6-JQtykwm">
+    <link rel="stylesheet" href="/assets/css/Header.css">
+    <link rel="stylesheet" href="/assets/css/Log-in.css">
+    <script src="/assets/js/Redirect.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <img src="https://lh3.googleusercontent.com/d/1xhfl3_aA02ROUJWWYrUdsgg6-JQtykwm" width="300" id="RoverLogoInContainer"/><br>
+            <h2>UC-IS Rovers Scout</h2>
+            <hr>
+            <form action="/assets/html/log-in.html" id="SignUpForm2" class="form" method="get">
+                <h3>Sign Up</h3>
+                <h3>Users Information</h3>
+
+                <b>First Name</b>
+                <input type=text placeholder="First name" id=FirstName><br>
+                <b>Middle Name</b>
+                <input type=text placeholder="Middle name" id=MiddleName><br>
+                <b>Last Name</b>
+                <input type=text placeholder="Last name" id=LastName><br>
+                <b>Email</b>
+                <input type="email" placeholder="Email" required><br>
+                <b>Phone Number</b>
+                <input type="tel" placeholder="Phone number"required><br>
+
+                <b>Birthday:</b>
+                <input type="date" id="birthday" name="birthday"><br>
+
+                <b>Gender:</b>
+                <br><br>
+
+                <span class="boxes">
+                Male           
+                <input type="radio" name="Gender" id="male" value="male" checked>
+                </span>
+                <span class="boxes">
+                Female             
+                <input type="radio" name="Gender" id="female" value="female">
+                </span>
+                <br><br>
+
+                <b>Status:</b>
+                <br><br>
+
+                <span class="boxes">
+                Single              
+                <input type="radio" name="Status" id="single" value="single">
+                </span>
+                <span class="boxes">
+                Taken
+                <input type="radio" name="Status" id="Taken" value="Taken">
+                </span>
+                <span class="boxes">
+                Separated
+                <input type="radio" name="Status" id="Separated" value="Separated">
+                </span>
+                <span class="boxes">
+                Complicated
+                <input type="radio" name="Status" id="Complicated" value="Complicated">
+                </span>
+                <span class="boxes">
+                Married
+                <input type="radio" name="Status" id="Married" value="Married">
+                </span>
+                <br><br>
+
+                <p>
+                    By clicking Sign Up, you agree to our
+                    <a href="/assets/html/TOS.html" id="TOS">Terms</a>,
+                    <a href="/assets/html/privacy.html" id="Privacy">Privacy Policy</a> and 
+                    <a href="/assets/html/cookies.html" id="Cookies">Cookies Policy</a>.
+                    You may receive SMS Notifications from us and can opt out any time.
+                </p>
+
+                <button type="submit">Sign Up</button>
+
+            </form>
+            <button onclick="RedirectLogin()">Log In</button>
+    </div>
+    
+</body>
+
+</html>
